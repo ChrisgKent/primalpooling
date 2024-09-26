@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "primalpooling"
+version = "0.1.0"
+description = "Scripts for repooling primers using an OT2"
+authors = ["ChrisKent <chrisgkent@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+opentrons = "^7.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
