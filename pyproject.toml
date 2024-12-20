@@ -8,6 +8,9 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.12"
 opentrons = "^7.5.0"
+primalbedtools = "^0.6.1"
+openpyxl = "^3.1.5"
+pandas = "^2.2.3"
 
 
 [build-system]
